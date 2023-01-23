@@ -10,7 +10,7 @@ import SwiftUI
 struct TweetComponent: View {
     var body: some View {
         VStack(alignment: .leading) {
-            HStack(alignment: .top, spacing: 12) {
+            HStack(alignment: .center, spacing: 12) {
                 Circle()
                     .frame(width: 56, height: 56)
                     .foregroundColor(Color(.systemRed))
@@ -61,7 +61,8 @@ struct TweetComponent: View {
                         .font(.subheadline)
                 }
             }
-            .padding()
+            .padding(.horizontal)
+            .padding(.vertical, 5)
             .foregroundColor(.gray)
             Divider()
         }

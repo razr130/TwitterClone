@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A271FC7F297E3DF00090C6E7 /* ProfileTweetTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271FC7E297E3DF00090C6E7 /* ProfileTweetTabViewModel.swift */; };
 		A2BFD8D628FFF7210097A2E0 /* TwitterCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BFD8D528FFF7210097A2E0 /* TwitterCloneApp.swift */; };
 		A2BFD8D828FFF7210097A2E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BFD8D728FFF7210097A2E0 /* ContentView.swift */; };
 		A2BFD8DA28FFF7230097A2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BFD8D928FFF7230097A2E0 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A271FC7E297E3DF00090C6E7 /* ProfileTweetTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTweetTabViewModel.swift; sourceTree = "<group>"; };
 		A2BFD8D228FFF7210097A2E0 /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BFD8D528FFF7210097A2E0 /* TwitterCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCloneApp.swift; sourceTree = "<group>"; };
 		A2BFD8D728FFF7210097A2E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 		A2BFD8FD290002290097A2E0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A271FC7E297E3DF00090C6E7 /* ProfileTweetTabViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				A2BFD8FC290000E90097A2E0 /* MessageView.swift in Sources */,
 				A2BFD8EF28FFF9DE0097A2E0 /* TweetComponent.swift in Sources */,
 				A2BFD8F8290000C10097A2E0 /* ExploreView.swift in Sources */,
+				A271FC7F297E3DF00090C6E7 /* ProfileTweetTabViewModel.swift in Sources */,
 				A2BFD8F228FFFFD90097A2E0 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
